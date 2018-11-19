@@ -2,6 +2,7 @@
 $('#technical-skill').hide();
 $('#homeToggle').on('click', () => {
     $('#home').show();
+    $('#technical-skill').hide()
     $('#education').hide();
     $('#portfolio').hide();
     $('#contact').hide();
